@@ -7,9 +7,9 @@ class Currency {
   // Hint: Look at the type of values being passed when `new Currency()`
   // is called below.
 
-  name: string;
-  code: string;
-  symbol: string;
+  private name: string;
+  private code: string;
+  private symbol: string;
 
   // Add types to the constructor parameters.
 
@@ -48,7 +48,7 @@ console.log(currencyNaira);
 
 // Call the `describe()` method on the `currencyNaira` object.
 
-currencyNaira.describe()
+currencyNaira.describe();
 
 // ----
 
@@ -62,7 +62,7 @@ console.log(currencyUsDollar);
 
 // Call the `describe()` method on the `currencyUsDollar` object.
 
-currencyUsDollar.describe()
+currencyUsDollar.describe();
 
 // ----
 
